@@ -1,0 +1,60 @@
+.container {
+  border: 2px solid black;
+  background-color: #226688;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+  min-height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inputField {
+  padding: 5px;
+}
+
+.loadingText {
+  list-style: none;
+  font-size: 20px;
+}
+
+.userList {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pageLabel {
+  font-size: 20px;
+}
+
+.pageButton {
+  cursor: pointer;
+  padding: 5px 12px;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
