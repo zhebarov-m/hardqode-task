@@ -1,0 +1,13 @@
+body {
+    background-color: #226688;
+    color: wheat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.02);
+}
